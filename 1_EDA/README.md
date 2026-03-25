@@ -40,7 +40,7 @@ The project utilizes a relational database structure designed for analytical per
 
 ## 🏗 Analysis Overview
 
-### 1. Top Demanded Skills ([01_top_demanded_skills.sql](../1_EDA\01_top_demanded_skill.sql))
+### 1. Top Demanded Skills ([01_top_demanded_skills.sql](1_EDA\01_top_demanded_skill.sql))
 * **Goal:** Find the top 10 most requested skills for Remote Data Engineer roles.
 * **Insight:** SQL and Python are mandatory, while AWS leads as the preferred cloud provider.
 
