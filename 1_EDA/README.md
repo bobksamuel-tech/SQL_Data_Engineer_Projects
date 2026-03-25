@@ -22,7 +22,7 @@ The data engineering field moves fast. To stay competitive, professionals need t
 ### Data Warehouse Architecture
 The project utilizes a relational database structure designed for analytical performance:
 
-![Data Warehouse Schema](1_2_Data_Warehouse.png)
+![Data Warehouse Schema](../IMAGE/1_2_Data_Warehouse.png)
 
 * **Fact Table:** `job_postings_fact` (Core metrics: Title, Salary, Location)
 * **Dimension Tables:** `company_dim` (Company Info), `skills_dim` (Skill Catalog)
