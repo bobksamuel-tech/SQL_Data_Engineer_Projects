@@ -1,6 +1,6 @@
 # 🔍 Exploratory Data Analysis w/ SQL: Job Market Analytics
 
-![Project Overview](./IMAGE/1_1_Project1_EDA.png)
+![Project Overview](../IMAGE/1_1_Project1_EDA.png)
 
 ## 📋 Project Overview
 This project is a deep-dive analysis of the **Data Engineer** job market using a real-world dataset of over 100,000 job postings. By leveraging **DuckDB** and **MotherDuck**, I designed an analytical workflow to identify high-value skills, salary trends, and the "Optimal" path for career growth in data engineering.
