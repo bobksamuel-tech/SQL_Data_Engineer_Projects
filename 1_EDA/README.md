@@ -1,6 +1,6 @@
 # 🔍 Exploratory Data Analysis w/ SQL: Job Market Analytics
 
-![Project Overview](./IMAGE\1_1_Project1_EDA.png)
+![Project Overview](.\1_1_Project1_EDA.png)
 
 ## 📋 Project Overview
 This project is a deep-dive analysis of the **Data Engineer** job market using a real-world dataset of over 100,000 job postings. By leveraging **DuckDB** and **MotherDuck**, I designed an analytical workflow to identify high-value skills, salary trends, and the "Optimal" path for career growth in data engineering.
@@ -22,7 +22,7 @@ The data engineering field moves fast. To stay competitive, professionals need t
 ### Data Warehouse Architecture
 The project utilizes a relational database structure designed for analytical performance:
 
-![Data Warehouse Schema](./IMAGE\1_2_Data_Warehouse.png)
+![Data Warehouse Schema](.\1_2_Data_Warehouse.png)
 
 * **Fact Table:** `job_postings_fact` (Core metrics: Title, Salary, Location)
 * **Dimension Tables:** `company_dim` (Company Info), `skills_dim` (Skill Catalog)
@@ -40,15 +40,15 @@ The project utilizes a relational database structure designed for analytical per
 
 ## 🏗 Analysis Overview
 
-### 1. Top Demanded Skills ([01_top_demanded_skills.sql](./1_EDA\01_top_demanded_skill.sql))
+### 1. Top Demanded Skills ([01_top_demanded_skills.sql](.\01_top_demanded_skill.sql))
 * **Goal:** Find the top 10 most requested skills for Remote Data Engineer roles.
 * **Insight:** SQL and Python are mandatory, while AWS leads as the preferred cloud provider.
 
-### 2. Top Paying Skills ([02_top_paying_skills.sql](./1_EDA\02_top_high_pay_skill.sql))
+### 2. Top Paying Skills ([02_top_paying_skills.sql](.\02_top_high_pay_skill.sql))
 * **Goal:** Focus on the highest median salaries across all postings.
 * **Insight:** Specialized tools like **Terraform** ($184k) and **Kafka** ($145k) command a significant premium over general tools.
 
-### 3. Optimal Skills ([03_optimal_skills.sql](./1_EDA\03_Optimal_skills.sql))
+### 3. Optimal Skills ([03_optimal_skills.sql](.\03_Optimal_skills.sql))
 * **Goal:** Calculate an "Optimal Score" by multiplying the **Natural Log (LN) of Demand** by the **Median Salary**.
 * **Insight:** This highlights the "Sweet Spot" skills—those that are both highly lucrative and widely sought after.
 
