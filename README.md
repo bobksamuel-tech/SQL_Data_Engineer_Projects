@@ -1,7 +1,7 @@
 # 🛠️ Data Engineering & Analytics Portfolio
 *Strategic hands-on projects focused on scalable data architecture and market intelligence.*
 
-![Project Overview](../IMAGE/1_1_Project1_EDA.png)
+![Project Overview](./IMAGE/1_1_Project1_EDA.png)
 
 ## 📋 Overview
 This repository contains a series of projects designed to demonstrate proficiency in modern data stack components like **DuckDB**, **MotherDuck**, and **SQL**. Each project focuses on a specific pillar of data engineering: Exploratory Data Analysis (EDA), Dimensional Modeling, and Schema Transformation.
