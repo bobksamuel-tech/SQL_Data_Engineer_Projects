@@ -10,7 +10,7 @@ This repository contains a series of projects designed to demonstrate proficienc
 
 ## 🚀 Projects
 
-### **01 | Market Intelligence EDA (./1_EDA/)
+### **01 | Market Intelligence EDA ![A](./1_EDA/)
 **Strategic Querying & Trend Analysis**
 An advanced SQL-driven analysis of the global Data Engineering job market. This project identifies high-ROI technical skills by normalizing demand metrics against median compensation using mathematical transformations.
 * **Core Skills:** Complex Multi-table Joins, Data Normalization (`LN()`), Statistical Aggregations (`MEDIAN`), and Market Gap Analysis.
